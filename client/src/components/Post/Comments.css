@@ -1,0 +1,88 @@
+
+.posted-comments{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+}
+
+.posted-comments .posted-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.posted-comment .comment-header{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comment-user-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.comment-user-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.comment-user-info .user-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.posted-comment .comment-actions-up{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+}
+
+.posted-comment .comment-actions-up svg{
+    padding: 5px;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.comment-actions-up svg:hover{
+    background: gainsboro;
+}
+
+.main-comment{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 10%;
+}
+
+.main-comment .comment-actions-down{
+    display: flex;
+    gap: 20px;
+}
+
+.comment-actions-down .comment-action{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    color: gray;
+}
+
+.comment-action:hover{
+    color: black;
+}
+
+.comment-action-svg{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}

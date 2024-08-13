@@ -1,0 +1,34 @@
+.user-footer{
+    margin-top:2.4rem ;
+    padding-top: 2.4rem;
+    width: 1128px;
+}
+
+.item-user-footer{
+    padding: 10px;
+}
+
+.item-user-footer span{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.items-user-footer ul{
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.item-user-footer li{
+    cursor: pointer;
+    color: gray;
+}
+.item-user-footer li:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.down-user-footer{
+    text-align: center;
+    padding: 10px;
+
+}

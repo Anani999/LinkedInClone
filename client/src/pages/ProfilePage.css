@@ -1,0 +1,29 @@
+.profilepage-container{
+    background-color: rgb(237, 237, 237);
+}
+
+.profilepage-container-dual{
+    display: flex;
+    margin: 15px auto;
+    max-width: 70%;
+}
+
+.profilepage-container-left, .profilepage-container-right{
+}
+
+.profilepage-container-left{
+    width: 75%;
+}
+
+
+/* Inline #4 | http://localhost:3000/profile */
+
+  
+  /* Inline #9 | http://localhost:3000/profile */
+  
+  .profilepage-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  

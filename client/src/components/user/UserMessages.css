@@ -1,0 +1,115 @@
+.user-messages{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top-info-user-messages{
+    padding: 15px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+}
+
+.info-user-messages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.info-user-messages span{
+    cursor: pointer;
+}
+
+.full-user-messages{
+    display: flex;
+    gap: 6px;
+}
+
+.chat-user-messages{
+    display: flex;
+    padding: 5px;
+    gap: 9px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid rgb(185, 185, 185);
+}
+
+.chat-user-messages img{
+    width: 80px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+.chat-info-user-messages{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.chat-info-name{
+    color: gray;
+}
+
+.chat-info-user-messages .chat-info-name{
+    font-weight: bold;
+    color: black;
+}
+
+.specific-user-messages{
+    height:500px ;
+    position: relative;
+}
+
+.info-specific-user-messages{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.chat-history-specific-user-messages{
+    display: inline-flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+
+.chat-history-specific-user-messages span{
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.chat-history-receiver{
+    align-items: start;
+}
+
+.chat-input-user-messages{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.chat-input-user-messages input{
+    all: unset;
+    padding: 4px;
+    color: gray;
+}
+
+.chat-input-user-messages button{
+    all: unset;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}

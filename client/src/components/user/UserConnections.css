@@ -1,0 +1,36 @@
+.user-connections{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.user-connections-numbers{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.user-connections-numbers .connections{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-connections-numbers .connections:hover{
+    text-decoration: underline;
+}
+
+.suggestions-user-connections{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: gray;
+    cursor: pointer;
+}
+
+.suggestions-user-connections:hover{
+    background-color: rgb(240, 240, 240);
+}

@@ -1,0 +1,86 @@
+.user-analytics{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+.user-analytics hr{
+    color: rgb(0, 0, 0,0.2);
+}
+.info-user-analytics{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.info-user-analytics span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: unset;
+    gap: 8px;
+}
+.info-user-analytics span p{
+    color: gray;
+    font-weight:unset;
+}
+.short-user-analytics{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 1.3rem;
+
+}
+
+.analytic{
+    display: inline-flex;
+    align-items: start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.analytic .info-analytic{
+    display: flex;
+    flex-direction: column;
+}
+
+.analytic img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.analytic .analytic-value{
+    font-weight: bold;
+}
+
+.action-user-analytics{
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.action-user-analytics:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.action-user-analytics span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

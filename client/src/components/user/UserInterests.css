@@ -1,0 +1,35 @@
+.user-interests{
+    background-color: white;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.info-user-interests{
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.user-interest{
+    width: 300px;
+}
+
+.user-interest .following{
+    color: black;
+    border:1px solid black
+}
+
+.user-interest .followers{
+    color: rgb(104, 104, 104);
+    font-size: 14px;
+}
+.user-interest .name{
+    font-weight: bold;
+}
+
+.user-interest .type{
+    color: rgb(60, 60, 60);
+}
+
+.info-slides-user-interests{
+    padding: 10px;
+}

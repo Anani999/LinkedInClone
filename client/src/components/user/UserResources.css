@@ -1,0 +1,47 @@
+.user-resources{
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 1.2rem;
+}
+.up-content-user-resources{
+    margin: 15px 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.up-content-user-resources .info-user-resources span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-user-resources{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+.action-user-resources{
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.action-user-resources span{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-item-user-resources{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.action-user-resources:hover{
+    background-color: rgb(242, 242, 242);
+}
